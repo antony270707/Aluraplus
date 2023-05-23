@@ -8,6 +8,9 @@
 body {
     background-color: var(--cor-de-fundo);
     color: var(--branco-principal);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
 }
 
 * {
@@ -33,9 +36,18 @@ body {
     padding: 1em;
     color: var(--branco-principal);
     display: block;
+    text-decoration: none;
 }
 
 .botao__secundario {
     background-color: transparent;
     border: 2px solid var(--branco-principal);
 }
+
+
+.container__aviso {
+    font-size: 12px;
+    color: var(--cinza-secundario);
+
+}
+
